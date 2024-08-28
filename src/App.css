@@ -1,0 +1,14 @@
+.flexbox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.pokemon-element {
+  text-align: center;
+  width: calc(20% - 20px);
+  border: 1pt solid rgb(219, 188, 145);
+  box-sizing: border-box;
+  cursor: pointer;
+}
